@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZJToast_Example' do
+  pod 'ZJToast', :path => '../'
+
+  target 'ZJToast_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
