@@ -7,23 +7,21 @@
 //
 
 #import "ZJViewController.h"
-
+#import <ZJToast/ZJToast.h>
 @interface ZJViewController ()
 
 @end
 
 @implementation ZJViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+- (IBAction)showToast:(id)sender {
+    [ZJToastView showStaut:@"Welcomin"];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)showAlert:(id)sender {
+    [ZJAlertView showZJAlertTitle:@"Welcomin" Messages:@[@"Hello"] andOKButtonString:@"OK" andClickBack:^(NSInteger buttonIndex) {
+        
+    }];
 }
 
 @end

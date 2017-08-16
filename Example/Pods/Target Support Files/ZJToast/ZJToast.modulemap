@@ -1,0 +1,6 @@
+framework module ZJToast {
+  umbrella header "ZJToast-umbrella.h"
+
+  export *
+  module * { export * }
+}
