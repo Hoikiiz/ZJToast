@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZJToast'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZJToast.'
+  s.summary          = 'First Release'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A tool for toast and alert, easy to use, install or uninstall
                        DESC
 
-  s.homepage         = 'https://github.com/407036069@qq.com/ZJToast'
+  s.homepage         = 'https://github.com/Hoikiiz/ZJToast'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '407036069@qq.com' => 'sunyang@91tao.com' }
-  s.source           = { :git => 'https://github.com/407036069@qq.com/ZJToast.git', :tag => s.version.to_s }
+  s.author           = { 'SunYang' => 'sunyang@91tao.com' }
+  s.source           = { :git => 'http://github.com/Hoikiiz/ZJToast.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
